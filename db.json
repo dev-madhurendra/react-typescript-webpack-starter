@@ -1,0 +1,94 @@
+{
+  "stackholders" : [
+      {  
+          "id":1,
+          "stackholder": "Audrey Simmons",
+          "portfolioEmail": "ckctm12@gmail.com",
+          "contactEmail": "caringgene@aol.com",
+          "relationship": "Ex-employee",
+          "costCenter": "Product",
+          "ownership": 0,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Kris Roher",
+          "portfolioEmail": "tranthuy.nute@gmail.com",
+          "contactEmail": "hahiss@gmail.com",
+          "relationship": "Employee",
+          "costCenter": "Account management",
+          "ownership": 2,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Chris Nhat",
+          "portfolioEmail": "binhan628@gmail.com",
+          "contactEmail": "sopwith@outlook.com",
+          "relationship": "-",
+          "costCenter": "-",
+          "ownership": 0,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Harry Peter",
+          "portfolioEmail": "manhhachkt08@gmail.com",
+          "contactEmail": "kassiesa@sbcglobal.net",
+          "relationship": "Ex-employee",
+          "costCenter": "Marketing",
+          "ownership": 16,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "George Harrington",
+          "portfolioEmail": "nvt.isst.nute@gmail.com",
+          "contactEmail": "phyruxus@optonline.net",
+          "relationship": "Employee",
+          "costCenter": "R&D",
+          "ownership": 14,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Teddy Gibbs",
+          "portfolioEmail": "danghoang87hl@gmail.com",
+          "contactEmail": "sammiwierd@att.net",
+          "relationship": "Employee",
+          "costCenter": "G&A",
+          "ownership": 4,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Ahmad Pasrand",
+          "portfolioEmail": "vuhaithuongnute@gmail.com",
+          "contactEmail": "desplayer@sbcglobal.net",
+          "relationship": "-",
+          "costCenter": "-",
+          "ownership": 0,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Jame Radley",
+          "portfolioEmail": "trungkienspktnd@gamail.com",
+          "contactEmail": "senseobvious@optonline.net",
+          "relationship": "Employee",
+          "costCenter": "Account management",
+          "ownership": 10,
+          "isActive": false
+      },
+      {  
+          "id":1,
+          "stackholder": "Antwan Denny",
+          "portfolioEmail": "thuhang.nute@gmail.com",
+          "contactEmail": "alfred@icloud.com",
+          "relationship": "Employee",
+          "costCenter": "Marketing",
+          "ownership": 8,
+          "isActive": false
+      }
+  ]
+}
