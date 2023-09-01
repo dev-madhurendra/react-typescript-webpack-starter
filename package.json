@@ -52,5 +52,6 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2"
   },
-  "readme": "ERROR: No README data found!"
+  "readme": "ERROR: No README data found!",
+  "_id": "react-typescript-webpack-starter"
 }
