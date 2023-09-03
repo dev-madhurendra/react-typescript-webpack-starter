@@ -16,10 +16,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.7",
-    "@mui/styled-engine-sc": "^5.14.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^29.5.0",
