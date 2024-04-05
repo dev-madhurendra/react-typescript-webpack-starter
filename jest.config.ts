@@ -1,24 +1,28 @@
-import type {Config} from 'jest';
-module.exports = {
+export default {
+    // All imported modules in your tests should be mocked automatically
+    // automock: false,
+  
+    // Stop running tests after `n` failures
+    // bail: 0,
+  
+    // The directory where Jest should store its cached dependency information
+    // cacheDirectory: "C:\\Users\\jeeva\\AppData\\Local\\Temp\\jest",
+  
+    // Automatically clear mock calls, instances, contexts and results before every test
+    clearMocks: true,
+  
+    // Indicates whether the coverage information should be collected while executing the test
     collectCoverage: true,
-    collectCoverageFrom: [
-      "src/**/**/*.{ts,tsx}",
-      "!src/components/**/*.{types,stories,constants,test,spec}.{ts,tsx}",
-      "!src/declare.d.ts",
-      "!src/App.tsx",
-      "!src/index.tsx",
-    ],
+  
+    // An array of glob patterns indicating a set of files for which coverage information should be collected
+    // collectCoverageFrom: undefined,
+  
+    // The directory where Jest should output its coverage files
     coverageDirectory: "coverage",
     testEnvironment: "jsdom",
-    setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
-    transform: {
-      "^.+\\.(js|jsx|ts|tsx)$": "babel-jest",
-      "^.+\\.css$": "jest-transform-stub",
-      "^.+\\.png$": "jest-transform-stub",
-    },
     moduleNameMapper: {
-      "^.+\\.(svg|gif)$": "jest-svg-transformer",
-      "\\.(css)$": "identity-obj-proxy",
-      '^d3-color$': '<rootDir>/node_modules/d3-color/dist/d3-color.min.js',
-    },
-  };
+        "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+          "<rootDir>/test/jest/__mocks__/fileMock.js",
+        "\\.(css|less)$": "<rootDir>/test/jest/__mocks__/styleMock.js",
+      },
+    };

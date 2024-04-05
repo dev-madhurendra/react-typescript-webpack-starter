@@ -1,9 +1,5 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <div>Hello,World</div>
-  )
-}
+const App = () => <h1>react-typescript-webpack-starter</h1>
 
 export default App
